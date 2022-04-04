@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Dream laptop
+## https://dream-laptop.netlify.app
+### Description:
+* In home page laptop image, 3 review and butten are added
+* Six review in shown in review page
+* Chart is shown in Dashboard
+* QusAns is added in Blogs page 
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

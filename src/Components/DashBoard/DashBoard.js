@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Bar, BarChart, Legend, Line, LineChart, Tooltip, XAxis, YAxis } from 'recharts';
-import MyLineChart from '../MyLineChart/MyLineChart';
+
 
 const DashBoard = () => {
     const [charts, setCharts] = useState([]);
@@ -17,6 +17,7 @@ const DashBoard = () => {
                     <Line dataKey='sell' fill='#8884d8'></Line>
                     <XAxis dataKey='month'></XAxis>
                     <Tooltip />
+                    <Legend />
                     <YAxis></YAxis>
 
 

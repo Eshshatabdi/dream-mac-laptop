@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import useReview from '../../customHooks/useReview';
 import image from '../../image.avif'
 import ReviewDetails from '../ReviewDetails/ReviewDetails';
@@ -6,6 +7,7 @@ import Reviews from '../Reviews/Reviews';
 
 const Home = () => {
     const [reviews, setReviews] = useReview();
+    const navigate = useNavigate()
     return (
         <div className='container'>
             <div className='row mt-5'>
@@ -38,7 +40,7 @@ const Home = () => {
 
                 </div>
                 <div className='mt-5'>
-                    <button className='w-50 border-0'>see all reviews</button>
+                    <button onClick={() => navigate('/reviews')} className='w-50 bg-primary text-white border-0'>see all reviews</button>
 
                 </div>
 

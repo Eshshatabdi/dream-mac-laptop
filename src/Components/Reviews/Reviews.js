@@ -7,16 +7,18 @@ const Reviews = () => {
     const [reviews, setReviews] = useReview();
 
     return (
-        <div className='container row'>
-            {
-                reviews.map(review => <ReviewDetails
-                    key={review.id}
-                    review={review}
+        <div className='container'>
+            <div className='row'>
+                {
+                    reviews.map(review => <ReviewDetails
+                        key={review.id}
+                        review={review}
 
-                ></ReviewDetails>)
-            }
+                    ></ReviewDetails>)
+                }
 
 
+            </div>
         </div>
     );
 };

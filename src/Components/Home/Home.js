@@ -22,7 +22,7 @@ const Home = () => {
             </div>
 
             <div>
-                <h2>Customer Reviews (3)</h2>
+                <h2 className='text-primary'>Customer Reviews (3)</h2>
                 <div className='row'>
                     {
                         reviews.slice(0, 3).map(review => <ReviewDetails

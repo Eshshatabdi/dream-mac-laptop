@@ -10,8 +10,9 @@ const DashBoard = () => {
             .then(data => setCharts(data))
     }, [])
     return (
-        <div className='container mt-5  d-flex'>
-            <div className='me-5'>
+        <div className='container mt-5 d-flex '>
+
+            <div className='me-5 col-md-6'>
 
                 <LineChart width={400} height={500} data={charts}>
                     <Line dataKey='sell' fill='#8884d8'></Line>
@@ -25,7 +26,7 @@ const DashBoard = () => {
                 <h4>Line Chart</h4>
             </div>
 
-            <div className='ms-5' >
+            <div className='ms-5 col-md-6' >
                 <BarChart width={400} height={500} data={charts} >
                     <Bar dataKey='investment' fill='#8884d8'></Bar>
                     <Bar dataKey='revenue' fill="#82ca9d"></Bar>
@@ -40,6 +41,8 @@ const DashBoard = () => {
                 </BarChart>
                 <h4>Bar Chart</h4>
             </div>
+
+
 
 
         </div>

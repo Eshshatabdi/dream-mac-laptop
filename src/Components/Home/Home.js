@@ -14,7 +14,7 @@ const Home = () => {
                 <div className='col-md-6 '>
                     <h2 className='text-primary'>Your Dream Laptop</h2>
                     <p>A laptop is a portable computer, including everything you need for work. It has a screen, a keyboard, a trackpad, many ports and usually a webcam and microphone.</p>
-                    <button className='bg-primary'>Live demo</button>
+                    <button className=' bg-primary text-white border-0'>Live demo</button>
                 </div>
                 <div className='col-md-6 '>
                     <img className='h-200' src={image} alt="" />

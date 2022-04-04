@@ -39,8 +39,8 @@ const Home = () => {
                     }
 
                 </div>
-                <div className='mt-5'>
-                    <button onClick={() => navigate('/reviews')} className='w-50 bg-primary text-white border-0'>see all reviews</button>
+                <div className='mt-5 mb-3'>
+                    <button onClick={() => navigate('/reviews')} className='w-25 bg-primary text-white border-0'>see all reviews</button>
 
                 </div>
 

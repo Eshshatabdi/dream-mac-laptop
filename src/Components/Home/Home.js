@@ -1,6 +1,7 @@
 import React from 'react';
 import useReview from '../../customHooks/useReview';
 import image from '../../image.avif'
+import ReviewDetails from '../ReviewDetails/ReviewDetails';
 import Reviews from '../Reviews/Reviews';
 
 const Home = () => {
@@ -24,18 +25,19 @@ const Home = () => {
                 <h2>Customer Reviews (3)</h2>
                 <div className='row'>
                     {
-                        reviews.map(review => <div className='col-md-4'
-                        >
-                            <h4>Name:{review.name}</h4>
-                            <p>Rating:{review.rating}</p>
-                            { }
+                        reviews.slice(0, 3).map(review => <ReviewDetails
+                            key={review.id}
+                            review={review}
+
+                        ></ReviewDetails>
 
 
-                        </div>)
+
+                        )
                     }
 
                 </div>
-                <div>
+                <div className='mt-5'>
                     <button className='w-50 border-0'>see all reviews</button>
 
                 </div>

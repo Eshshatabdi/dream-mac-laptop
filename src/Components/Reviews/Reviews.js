@@ -5,7 +5,7 @@ import ReviewDetails from '../ReviewDetails/ReviewDetails';
 
 const Reviews = () => {
     const [reviews, setReviews] = useReview();
-    const { name, rating } = useParams();
+
     return (
         <div className='container row'>
             {

@@ -12,6 +12,7 @@ import Reviews from './Components/Reviews/Reviews';
 function App() {
   return (
     <div className="App">
+      <h2 className='text-primary'>Dream Laptop</h2>
       <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>

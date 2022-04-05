@@ -3,7 +3,7 @@ import useReview from '../../hooks.js/useReview';
 import ReviewDetails from '../ReviewDetails/ReviewDetails';
 
 const Reviews = () => {
-    const [reviews,] = useReview();
+    const [reviews] = useReview();
 
     return (
         <div className='container'>

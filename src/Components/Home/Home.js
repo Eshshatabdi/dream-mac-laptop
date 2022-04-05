@@ -6,7 +6,7 @@ import ReviewDetails from '../ReviewDetails/ReviewDetails';
 
 
 const Home = () => {
-    const [reviews, setReviews] = useReview();
+    const [reviews] = useReview();
     const navigate = useNavigate()
     return (
         <div className='container'>

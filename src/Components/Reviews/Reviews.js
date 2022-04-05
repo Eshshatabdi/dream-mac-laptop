@@ -1,10 +1,9 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
-import useReview from '../../customHooks/useReview';
+import useReview from '../../hooks.js/useReview';
 import ReviewDetails from '../ReviewDetails/ReviewDetails';
 
 const Reviews = () => {
-    const [reviews, setReviews] = useReview();
+    const [reviews,] = useReview();
 
     return (
         <div className='container'>

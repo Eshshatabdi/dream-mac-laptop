@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import useReview from '../../hooks.js/useReview';
+import useReview from '../../hooks/useReview';
 import image1 from '../../image1.avif';
 import ReviewDetails from '../ReviewDetails/ReviewDetails';
 

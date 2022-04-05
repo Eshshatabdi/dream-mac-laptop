@@ -1,5 +1,5 @@
 import React from 'react';
-import useReview from '../../hooks.js/useReview';
+import useReview from '../../hooks/useReview';
 import ReviewDetails from '../ReviewDetails/ReviewDetails';
 
 const Reviews = () => {
